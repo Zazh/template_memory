@@ -12,6 +12,12 @@
 - HTTP: `infrastructure/http.ts` — `api()` (Bearer, тело ошибки — текст);
   multipart шлётся `fetch`-ом через тот же хелпер (передать `FormData`).
 
+## Макет
+
+- Профиль и шапка — статус «нет макета» (строки в `frontend/design.md#screens`): облик по
+  канону дорисовки `frontend/design.md#canon` — кружок аватара на месте инициалов того же
+  размера, кнопка загрузки — кнопка кита; показать владельцу на чекпоинте.
+
 ## Задача
 
 1. `domain/avatar.ts`: `avatarUrl(userId, version): string | null` — `null` при

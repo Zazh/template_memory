@@ -11,6 +11,10 @@
 - Ошибки API — plain-text `http.Error` (конвенция всего API, Р-2).
 - Ресайз: стандартная `image/jpeg` + `golang.org/x/image/draw` (в go.mod ещё нет).
 
+## Макет
+
+Не применимо — бэкенд.
+
 ## Задача
 
 1. Миграция `0008_avatar_version.sql`: `users.avatar_version int NOT NULL DEFAULT 0`
