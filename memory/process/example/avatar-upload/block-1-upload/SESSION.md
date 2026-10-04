@@ -8,7 +8,7 @@
 <!-- Общая часть каждой роли — в slash-команде (.claude/commands/); здесь только
 точная команда и блок-специфика. -->
 
-## Промпт исполнителя — уровень build · Opus 5 · effort high (MODELS.md)
+## Промпт исполнителя — уровень build · Opus 5.5 · effort high (MODELS.md)
 
 ```
 /worker avatar-upload 1
@@ -23,7 +23,7 @@
   в `web/`; браузерный сценарий из критериев AV-02 руками.
 - Следующий шаг — стандартный: `/critic avatar-upload 1`.
 
-## Промпт критика — уровень review · Opus 5 · effort xhigh (MODELS.md)
+## Промпт критика — уровень review · Opus 5.5 · effort xhigh (MODELS.md)
 
 ```
 /critic avatar-upload 1
@@ -38,7 +38,7 @@
 - Следующего блока нет → вместо актуализации его промпта проверить, что хвосты
   записаны в §4 с полем «судьба».
 
-## Промпт приёмки — уровень review · Opus 5 · effort xhigh (MODELS.md)
+## Промпт приёмки — уровень review · Opus 5.5 · effort xhigh (MODELS.md)
 
 ```
 /accept avatar-upload 1
